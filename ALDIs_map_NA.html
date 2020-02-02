@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d328d0c9aa0a48c08e20c7a3fb773f33 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d328d0c9aa0a48c08e20c7a3fb773f33" ></div>
+        
+</body>
+<script>    
+    
+            var map_d328d0c9aa0a48c08e20c7a3fb773f33 = L.map(
+                "map_d328d0c9aa0a48c08e20c7a3fb773f33",
+                {
+                    center: [41.841832, -87.623177],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_dd0c16cc5ea445579c4d8f7b42d6282f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 12, "maxZoom": 12, "minZoom": 12, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+            var marker_3f051b66ff724e039d433b84dc0d8e20 = L.marker(
+                [41.8305696970898, -87.63108610536133],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_e26bf2275df045c38652576d15f2e2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1ad5cdb4f574ca59e548af018021c2b = $(`<div id="html_b1ad5cdb4f574ca59e548af018021c2b" style="width: 100.0%; height: 100.0%;">(2.192794839490781, '1508 W 47th St')</div>`)[0];
+            popup_e26bf2275df045c38652576d15f2e2c3.setContent(html_b1ad5cdb4f574ca59e548af018021c2b);
+        
+
+        marker_3f051b66ff724e039d433b84dc0d8e20.bindPopup(popup_e26bf2275df045c38652576d15f2e2c3)
+        ;
+
+        
+    
+    
+            var marker_d589e000c2464553b5ae32870dff2228 = L.marker(
+                [41.74048700471607, -87.6495716949891],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_c033a7c5590e4ffba3dde97e0a94b236 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_280419d8eb7d4e2699f764cf05048340 = $(`<div id="html_280419d8eb7d4e2699f764cf05048340" style="width: 100.0%; height: 100.0%;">(0.8909742238357389, '8500 S Holland Rd')</div>`)[0];
+            popup_c033a7c5590e4ffba3dde97e0a94b236.setContent(html_280419d8eb7d4e2699f764cf05048340);
+        
+
+        marker_d589e000c2464553b5ae32870dff2228.bindPopup(popup_c033a7c5590e4ffba3dde97e0a94b236)
+        ;
+
+        
+    
+    
+            var marker_6560089cc0704513b16a111b7d34baea = L.marker(
+                [41.89070761038691, -87.75555511916461],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_d9113371de5b459ba3fe140e15319315 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45f988c3ecf74414ab1f9bc7f80ce530 = $(`<div id="html_45f988c3ecf74414ab1f9bc7f80ce530" style="width: 100.0%; height: 100.0%;">(1.5042888184965402, '1440 N Kostner Ave')</div>`)[0];
+            popup_d9113371de5b459ba3fe140e15319315.setContent(html_45f988c3ecf74414ab1f9bc7f80ce530);
+        
+
+        marker_6560089cc0704513b16a111b7d34baea.bindPopup(popup_d9113371de5b459ba3fe140e15319315)
+        ;
+
+        
+    
+    
+            var marker_5f367eee5a1942c387d074ec3409cc20 = L.marker(
+                [41.743715992728156, -87.59629491005441],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_37524c2eb9f9496f83a9cfd09b5ea825 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a0f2833c8f3456eb15ecda7e61713d1 = $(`<div id="html_8a0f2833c8f3456eb15ecda7e61713d1" style="width: 100.0%; height: 100.0%;">(0.7510996209842218, '7800 S South Chicago Ave')</div>`)[0];
+            popup_37524c2eb9f9496f83a9cfd09b5ea825.setContent(html_8a0f2833c8f3456eb15ecda7e61713d1);
+        
+
+        marker_5f367eee5a1942c387d074ec3409cc20.bindPopup(popup_37524c2eb9f9496f83a9cfd09b5ea825)
+        ;
+
+        
+    
+    
+            var marker_54f26f8d7890413e80cc637a7dfa019d = L.marker(
+                [41.83601978137385, -87.63845510092303],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_26477a876f6c42619d86148b1d3fdfc8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc29351598a04c669cc0d44bff1ce5a5 = $(`<div id="html_dc29351598a04c669cc0d44bff1ce5a5" style="width: 100.0%; height: 100.0%;">(1.96261968730466, '1739 W Cermak Rd')</div>`)[0];
+            popup_26477a876f6c42619d86148b1d3fdfc8.setContent(html_dc29351598a04c669cc0d44bff1ce5a5);
+        
+
+        marker_54f26f8d7890413e80cc637a7dfa019d.bindPopup(popup_26477a876f6c42619d86148b1d3fdfc8)
+        ;
+
+        
+    
+    
+            var marker_52b1f64281bc4f1ab0c449f238fa20c3 = L.marker(
+                [41.81875795538764, -87.69607796442348],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_c4b29d8fb5df489f9216b5a45a7d8847 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a6065b2d7af4fc4b06d629d8d4e5038 = $(`<div id="html_6a6065b2d7af4fc4b06d629d8d4e5038" style="width: 100.0%; height: 100.0%;">(1.4328475557950364, '3030 S Kedzie Ave')</div>`)[0];
+            popup_c4b29d8fb5df489f9216b5a45a7d8847.setContent(html_6a6065b2d7af4fc4b06d629d8d4e5038);
+        
+
+        marker_52b1f64281bc4f1ab0c449f238fa20c3.bindPopup(popup_c4b29d8fb5df489f9216b5a45a7d8847)
+        ;
+
+        
+    
+    
+            var marker_9af5e216872a47e891bee743f86b2f36 = L.marker(
+                [41.72565919309558, -87.59190219385849],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_046c03538b1c4cd1b4e5cc182d4b9068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13e7a7615bc44046bf89ba28d00a8666 = $(`<div id="html_13e7a7615bc44046bf89ba28d00a8666" style="width: 100.0%; height: 100.0%;">(1.325547648251302, '2333 E 95th St')</div>`)[0];
+            popup_046c03538b1c4cd1b4e5cc182d4b9068.setContent(html_13e7a7615bc44046bf89ba28d00a8666);
+        
+
+        marker_9af5e216872a47e891bee743f86b2f36.bindPopup(popup_046c03538b1c4cd1b4e5cc182d4b9068)
+        ;
+
+        
+    
+    
+            var marker_3d852d3801c94d53a716f0e7ca912856 = L.marker(
+                [41.74140855756236, -87.61062537777349],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_adfe330f1c3a4478a58bdbda9d3b7bb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2788c4a2eaf740e389bf411132a7befb = $(`<div id="html_2788c4a2eaf740e389bf411132a7befb" style="width: 100.0%; height: 100.0%;">(1.1348185431777342, '8500 S Holland Rd')</div>`)[0];
+            popup_adfe330f1c3a4478a58bdbda9d3b7bb6.setContent(html_2788c4a2eaf740e389bf411132a7befb);
+        
+
+        marker_3d852d3801c94d53a716f0e7ca912856.bindPopup(popup_adfe330f1c3a4478a58bdbda9d3b7bb6)
+        ;
+
+        
+    
+    
+            var marker_ecdef6f0cb6f463d8caf796652f00ffd = L.marker(
+                [41.85172261450368, -87.63515791055325],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_e23a219dcef245f4bd207edcbf361fad = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a720e025b9b5412dbe3f27fc90dfdd64 = $(`<div id="html_a720e025b9b5412dbe3f27fc90dfdd64" style="width: 100.0%; height: 100.0%;">(1.8090179400036723, '1739 W Cermak Rd')</div>`)[0];
+            popup_e23a219dcef245f4bd207edcbf361fad.setContent(html_a720e025b9b5412dbe3f27fc90dfdd64);
+        
+
+        marker_ecdef6f0cb6f463d8caf796652f00ffd.bindPopup(popup_e23a219dcef245f4bd207edcbf361fad)
+        ;
+
+        
+    
+    
+            var marker_b6f4c89aa9d142bc9c904ba1ab8287b9 = L.marker(
+                [41.77603645468921, -87.77142904065681],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_9b09dbbb81184fe8814269763b24c9f1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e2f57c7a40fa44b3bad3ca483c87eb4b = $(`<div id="html_e2f57c7a40fa44b3bad3ca483c87eb4b" style="width: 100.0%; height: 100.0%;">(1.8738418591511297, '5501 S Harlem Ave')</div>`)[0];
+            popup_9b09dbbb81184fe8814269763b24c9f1.setContent(html_e2f57c7a40fa44b3bad3ca483c87eb4b);
+        
+
+        marker_b6f4c89aa9d142bc9c904ba1ab8287b9.bindPopup(popup_9b09dbbb81184fe8814269763b24c9f1)
+        ;
+
+        
+    
+    
+            var marker_c3a621d2f41c42978840d865119d51a1 = L.marker(
+                [41.832173613610756, -87.62833608469015],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_8b607f5ada424c72837f22d59a773d12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0c238d635724022ac7fb45bd3841a54 = $(`<div id="html_b0c238d635724022ac7fb45bd3841a54" style="width: 100.0%; height: 100.0%;">(2.3724530157781034, '1508 W 47th St')</div>`)[0];
+            popup_8b607f5ada424c72837f22d59a773d12.setContent(html_b0c238d635724022ac7fb45bd3841a54);
+        
+
+        marker_c3a621d2f41c42978840d865119d51a1.bindPopup(popup_8b607f5ada424c72837f22d59a773d12)
+        ;
+
+        
+    
+    
+            var marker_0b24213939e24da588fd5aa52b66cd16 = L.marker(
+                [41.71322473858675, -87.54055941901412],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_e4d93655069b4940b69ea82b28f865b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e5b0cb381078436c950689be56577473 = $(`<div id="html_e5b0cb381078436c950689be56577473" style="width: 100.0%; height: 100.0%;">(1.0233765496476308, '10532 S Indianapolis Ave')</div>`)[0];
+            popup_e4d93655069b4940b69ea82b28f865b6.setContent(html_e5b0cb381078436c950689be56577473);
+        
+
+        marker_0b24213939e24da588fd5aa52b66cd16.bindPopup(popup_e4d93655069b4940b69ea82b28f865b6)
+        ;
+
+        
+    
+    
+            var marker_76500960934844ff807f865d6a298b72 = L.marker(
+                [41.99438750866041, -87.67253475703622],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_f17c22cf8a0649709027734370dcd916 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a70eb90f81c46d2bcc3a44c1196cc7f = $(`<div id="html_1a70eb90f81c46d2bcc3a44c1196cc7f" style="width: 100.0%; height: 100.0%;">(0.6443098360890167, '6221 N Broadway')</div>`)[0];
+            popup_f17c22cf8a0649709027734370dcd916.setContent(html_1a70eb90f81c46d2bcc3a44c1196cc7f);
+        
+
+        marker_76500960934844ff807f865d6a298b72.bindPopup(popup_f17c22cf8a0649709027734370dcd916)
+        ;
+
+        
+    
+    
+            var marker_fac3c5910daf47f28b6b5ad6ce40bdc1 = L.marker(
+                [41.788333921999815, -87.6587984413538],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_76ec2768d005449286fa7d5d116dba21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9330c4cd6005425c8eca87737d35a2bc = $(`<div id="html_9330c4cd6005425c8eca87737d35a2bc" style="width: 100.0%; height: 100.0%;">(1.0937100546130454, '620 W 63rd St, Chicago')</div>`)[0];
+            popup_76ec2768d005449286fa7d5d116dba21.setContent(html_9330c4cd6005425c8eca87737d35a2bc);
+        
+
+        marker_fac3c5910daf47f28b6b5ad6ce40bdc1.bindPopup(popup_76ec2768d005449286fa7d5d116dba21)
+        ;
+
+        
+    
+    
+            var marker_e5f7028c68284c7cb18232e4c5a36145 = L.marker(
+                [41.80657905862593, -87.63186667652579],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_cee0a7caff7b4b0f8363273ee0144bb2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b60aa4c5ec5847c0857cf59df20e948d = $(`<div id="html_b60aa4c5ec5847c0857cf59df20e948d" style="width: 100.0%; height: 100.0%;">(1.6101847010349508, '1508 W 47th St')</div>`)[0];
+            popup_cee0a7caff7b4b0f8363273ee0144bb2.setContent(html_b60aa4c5ec5847c0857cf59df20e948d);
+        
+
+        marker_e5f7028c68284c7cb18232e4c5a36145.bindPopup(popup_cee0a7caff7b4b0f8363273ee0144bb2)
+        ;
+
+        
+    
+    
+            var marker_ef970da421c8475c9180905774fddabd = L.marker(
+                [41.799268688942625, -87.6890870247164],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_67bd5f1f3b8d42a89fc93ff8ad935b10 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6cc39a8d5cb84e1d878c4c38b9c7b989 = $(`<div id="html_6cc39a8d5cb84e1d878c4c38b9c7b989" style="width: 100.0%; height: 100.0%;">(1.115242797840197, '6025 S Western Ave')</div>`)[0];
+            popup_67bd5f1f3b8d42a89fc93ff8ad935b10.setContent(html_6cc39a8d5cb84e1d878c4c38b9c7b989);
+        
+
+        marker_ef970da421c8475c9180905774fddabd.bindPopup(popup_67bd5f1f3b8d42a89fc93ff8ad935b10)
+        ;
+
+        
+    
+    
+            var marker_a31c44a3b1fb41bcaee44d4081ee6913 = L.marker(
+                [41.87896942088084, -87.70076122610605],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_d0dd2c90550d4abdae35bd40b0dd9c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fccab8a40b04c54aeb357927cbdd60d = $(`<div id="html_1fccab8a40b04c54aeb357927cbdd60d" style="width: 100.0%; height: 100.0%;">(1.1218019086611852, '3835 W Madison St')</div>`)[0];
+            popup_d0dd2c90550d4abdae35bd40b0dd9c2f.setContent(html_1fccab8a40b04c54aeb357927cbdd60d);
+        
+
+        marker_a31c44a3b1fb41bcaee44d4081ee6913.bindPopup(popup_d0dd2c90550d4abdae35bd40b0dd9c2f)
+        ;
+
+        
+    
+    
+            var marker_0b7e192c99b0414b9e010faf1636815a = L.marker(
+                [41.816354592517925, -87.74320236255029],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_279db42f8a9749fba2512f01a3b4ef3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4134ebf27f0d4b43b175a724edbda27e = $(`<div id="html_4134ebf27f0d4b43b175a724edbda27e" style="width: 100.0%; height: 100.0%;">(1.0834409483432548, '4501 S Pulaski Rd')</div>`)[0];
+            popup_279db42f8a9749fba2512f01a3b4ef3d.setContent(html_4134ebf27f0d4b43b175a724edbda27e);
+        
+
+        marker_0b7e192c99b0414b9e010faf1636815a.bindPopup(popup_279db42f8a9749fba2512f01a3b4ef3d)
+        ;
+
+        
+    
+    
+            var marker_72f2394e2e124e5a9679fa1bb8185d45 = L.marker(
+                [41.8160214314282, -87.62838307910575],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_ed2103b9d1aa4ae48e98d9e558df9a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_619da578b69e45c19ce1d8c71a2d5480 = $(`<div id="html_619da578b69e45c19ce1d8c71a2d5480" style="width: 100.0%; height: 100.0%;">(1.8347366569362433, '1508 W 47th St')</div>`)[0];
+            popup_ed2103b9d1aa4ae48e98d9e558df9a7e.setContent(html_619da578b69e45c19ce1d8c71a2d5480);
+        
+
+        marker_72f2394e2e124e5a9679fa1bb8185d45.bindPopup(popup_ed2103b9d1aa4ae48e98d9e558df9a7e)
+        ;
+
+        
+    
+    
+            var marker_1c8ddb785d8441879e92eda911613c57 = L.marker(
+                [41.76247111228734, -87.60981654740912],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_b54e45a32eab49f2961a01cb6ab1a34b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6343aaf86183460881675a1a244875cc = $(`<div id="html_6343aaf86183460881675a1a244875cc" style="width: 100.0%; height: 100.0%;">(0.7688122661238241, '7345 S State St')</div>`)[0];
+            popup_b54e45a32eab49f2961a01cb6ab1a34b.setContent(html_6343aaf86183460881675a1a244875cc);
+        
+
+        marker_1c8ddb785d8441879e92eda911613c57.bindPopup(popup_b54e45a32eab49f2961a01cb6ab1a34b)
+        ;
+
+        
+    
+    
+            var marker_4212d5e18d3a45fdb7fddc32021182ad = L.marker(
+                [41.66604403739433, -87.55593344946425],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_d544d527cde94d79b6f4e2f33a4dec12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27bab77ed31a44479381b66c0c14fb87 = $(`<div id="html_27bab77ed31a44479381b66c0c14fb87" style="width: 100.0%; height: 100.0%;">(3.0162558083429514, '10532 S Indianapolis Ave')</div>`)[0];
+            popup_d544d527cde94d79b6f4e2f33a4dec12.setContent(html_27bab77ed31a44479381b66c0c14fb87);
+        
+
+        marker_4212d5e18d3a45fdb7fddc32021182ad.bindPopup(popup_d544d527cde94d79b6f4e2f33a4dec12)
+        ;
+
+        
+    
+    
+            var marker_2acde4b0edca41a2a78a5fb8f35dfee8 = L.marker(
+                [41.786102096722786, -87.59061131614556],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_fa8deb7922b24783ae6ed2cb2b5fcc59 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b7312ad687014fe8a10e090f46c86e62 = $(`<div id="html_b7312ad687014fe8a10e090f46c86e62" style="width: 100.0%; height: 100.0%;">(1.105248466041678, '6621 S Cottage Grove Ave')</div>`)[0];
+            popup_fa8deb7922b24783ae6ed2cb2b5fcc59.setContent(html_b7312ad687014fe8a10e090f46c86e62);
+        
+
+        marker_2acde4b0edca41a2a78a5fb8f35dfee8.bindPopup(popup_fa8deb7922b24783ae6ed2cb2b5fcc59)
+        ;
+
+        
+    
+    
+            var marker_2c12136dcb3b4868bf3f75c0bf982609 = L.marker(
+                [41.777718814289635, -87.57759390003675],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_a3b411189d7f43a588b5dfec74921d11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a62c93f3d33415993269711af9d865e = $(`<div id="html_1a62c93f3d33415993269711af9d865e" style="width: 100.0%; height: 100.0%;">(1.4552714318656115, '6621 S Cottage Grove Ave')</div>`)[0];
+            popup_a3b411189d7f43a588b5dfec74921d11.setContent(html_1a62c93f3d33415993269711af9d865e);
+        
+
+        marker_2c12136dcb3b4868bf3f75c0bf982609.bindPopup(popup_a3b411189d7f43a588b5dfec74921d11)
+        ;
+
+        
+    
+    
+            var marker_234481c993f146e39c8df3f773cfb0f9 = L.marker(
+                [41.8672795227302, -87.68902366366802],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_e86e630f6b4945168a42354ddb43639c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed986985b3c9458a8ea9f147035d74af = $(`<div id="html_ed986985b3c9458a8ea9f147035d74af" style="width: 100.0%; height: 100.0%;">(1.4503588165520627, '1739 W Cermak Rd')</div>`)[0];
+            popup_e86e630f6b4945168a42354ddb43639c.setContent(html_ed986985b3c9458a8ea9f147035d74af);
+        
+
+        marker_234481c993f146e39c8df3f773cfb0f9.bindPopup(popup_e86e630f6b4945168a42354ddb43639c)
+        ;
+
+        
+    
+    
+            var marker_aa2ae4b45c0848078cf2c0d687e1ef24 = L.marker(
+                [41.85721121198702, -87.63533199998777],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_3a39ff9272c7438fb9170bc632ef2cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b99a508b2a9b41439ec13ae3619cdc54 = $(`<div id="html_b99a508b2a9b41439ec13ae3619cdc54" style="width: 100.0%; height: 100.0%;">(1.8402609396416383, '1739 W Cermak Rd')</div>`)[0];
+            popup_3a39ff9272c7438fb9170bc632ef2cc1.setContent(html_b99a508b2a9b41439ec13ae3619cdc54);
+        
+
+        marker_aa2ae4b45c0848078cf2c0d687e1ef24.bindPopup(popup_3a39ff9272c7438fb9170bc632ef2cc1)
+        ;
+
+        
+    
+    
+            var marker_aec66c0d4d4743f9b120e654382ebd66 = L.marker(
+                [41.82537804134017, -87.68578908700206],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_2eda1d3ee4f5409e9ade61b5c7507b24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_21c93f19e72b41889bbf02618d4c51c3 = $(`<div id="html_21c93f19e72b41889bbf02618d4c51c3" style="width: 100.0%; height: 100.0%;">(1.3559996864598636, '3030 S Kedzie Ave')</div>`)[0];
+            popup_2eda1d3ee4f5409e9ade61b5c7507b24.setContent(html_21c93f19e72b41889bbf02618d4c51c3);
+        
+
+        marker_aec66c0d4d4743f9b120e654382ebd66.bindPopup(popup_2eda1d3ee4f5409e9ade61b5c7507b24)
+        ;
+
+        
+    
+    
+            var marker_470f651285c0436c947d7cb696674e3d = L.marker(
+                [41.85617511041821, -87.63227418631051],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_ca66823635974513a36c4f8bdbc47927 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c537f33edcf402cad2c3fb1cab1cd14 = $(`<div id="html_5c537f33edcf402cad2c3fb1cab1cd14" style="width: 100.0%; height: 100.0%;">(1.982380412959909, '1739 W Cermak Rd')</div>`)[0];
+            popup_ca66823635974513a36c4f8bdbc47927.setContent(html_5c537f33edcf402cad2c3fb1cab1cd14);
+        
+
+        marker_470f651285c0436c947d7cb696674e3d.bindPopup(popup_ca66823635974513a36c4f8bdbc47927)
+        ;
+
+        
+    
+    
+            var marker_ce186125c23242438e19dc9cbf92b81e = L.marker(
+                [41.862936745506175, -87.7055760893781],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_cf72876fde5a4e41a5e2db54fab70fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_60ae6ef5548647d0ab590472133dfc07 = $(`<div id="html_60ae6ef5548647d0ab590472133dfc07" style="width: 100.0%; height: 100.0%;">(1.4896533126019567, '3835 W Madison St')</div>`)[0];
+            popup_cf72876fde5a4e41a5e2db54fab70fe5.setContent(html_60ae6ef5548647d0ab590472133dfc07);
+        
+
+        marker_ce186125c23242438e19dc9cbf92b81e.bindPopup(popup_cf72876fde5a4e41a5e2db54fab70fe5)
+        ;
+
+        
+    
+    
+            var marker_c3e127ebcfb24b819dd1014fcc460b09 = L.marker(
+                [41.70298762237089, -87.59798772591915],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_af8e531a1d0a4a75988729f1757eb269 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62863d35a7bf4be1af4107ab12f3f5e8 = $(`<div id="html_62863d35a7bf4be1af4107ab12f3f5e8" style="width: 100.0%; height: 100.0%;">(2.0894011283881357, '2333 E 95th St')</div>`)[0];
+            popup_af8e531a1d0a4a75988729f1757eb269.setContent(html_62863d35a7bf4be1af4107ab12f3f5e8);
+        
+
+        marker_c3e127ebcfb24b819dd1014fcc460b09.bindPopup(popup_af8e531a1d0a4a75988729f1757eb269)
+        ;
+
+        
+    
+    
+            var marker_baf91509dbf7478aaea2521b8fccc905 = L.marker(
+                [41.67615945326599, -87.60695706844622],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_21ae5a5e3f7244139d31c7c7a316a38a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27256a7b9ee844fc916cc0c445e2bf60 = $(`<div id="html_27256a7b9ee844fc916cc0c445e2bf60" style="width: 100.0%; height: 100.0%;">(1.9768815656520666, '821 W 115th St')</div>`)[0];
+            popup_21ae5a5e3f7244139d31c7c7a316a38a.setContent(html_27256a7b9ee844fc916cc0c445e2bf60);
+        
+
+        marker_baf91509dbf7478aaea2521b8fccc905.bindPopup(popup_21ae5a5e3f7244139d31c7c7a316a38a)
+        ;
+
+        
+    
+    
+            var marker_53c2ea2a29654e46b7d0524e2e8bcf20 = L.marker(
+                [41.99802430421302, -87.67339415870977],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_6bb6eaa068fc40a79cc9c3d6751a7054 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1d07ae4710fd4f8abf19f8d1ceafc982 = $(`<div id="html_1d07ae4710fd4f8abf19f8d1ceafc982" style="width: 100.0%; height: 100.0%;">(0.7179563083711198, '6221 N Broadway')</div>`)[0];
+            popup_6bb6eaa068fc40a79cc9c3d6751a7054.setContent(html_1d07ae4710fd4f8abf19f8d1ceafc982);
+        
+
+        marker_53c2ea2a29654e46b7d0524e2e8bcf20.bindPopup(popup_6bb6eaa068fc40a79cc9c3d6751a7054)
+        ;
+
+        
+    
+    
+            var marker_cf4b71b5b2de4b8896a81bb563717238 = L.marker(
+                [41.7037441320449, -87.62180093566346],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_9e2bc5b1261e4f89af559602eb499ddb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7b761551988648d5a4a3c0bfad85045d = $(`<div id="html_7b761551988648d5a4a3c0bfad85045d" style="width: 100.0%; height: 100.0%;">(1.7980416855604924, '821 W 115th St')</div>`)[0];
+            popup_9e2bc5b1261e4f89af559602eb499ddb.setContent(html_7b761551988648d5a4a3c0bfad85045d);
+        
+
+        marker_cf4b71b5b2de4b8896a81bb563717238.bindPopup(popup_9e2bc5b1261e4f89af559602eb499ddb)
+        ;
+
+        
+    
+    
+            var marker_21d654c0280d4093b40138c39060836a = L.marker(
+                [41.74055565935873, -87.54400780313748],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_e586a50208874da9bac4c960f394e0f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6ad63cdb7a754c0ca2c426e32c6890c6 = $(`<div id="html_6ad63cdb7a754c0ca2c426e32c6890c6" style="width: 100.0%; height: 100.0%;">(1.7294286902581515, '2333 E 95th St')</div>`)[0];
+            popup_e586a50208874da9bac4c960f394e0f2.setContent(html_6ad63cdb7a754c0ca2c426e32c6890c6);
+        
+
+        marker_21d654c0280d4093b40138c39060836a.bindPopup(popup_e586a50208874da9bac4c960f394e0f2)
+        ;
+
+        
+    
+    
+            var marker_826e886489ae425ca3f52a5ec1eff0b2 = L.marker(
+                [41.707202193582326, -87.57348415390003],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_eb5d08ac3492453c90bbd6d0869ae6a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ac340a74da140f39c8bc1f9df745e6f = $(`<div id="html_2ac340a74da140f39c8bc1f9df745e6f" style="width: 100.0%; height: 100.0%;">(1.0891402400868637, '2333 E 95th St')</div>`)[0];
+            popup_eb5d08ac3492453c90bbd6d0869ae6a7.setContent(html_2ac340a74da140f39c8bc1f9df745e6f);
+        
+
+        marker_826e886489ae425ca3f52a5ec1eff0b2.bindPopup(popup_eb5d08ac3492453c90bbd6d0869ae6a7)
+        ;
+
+        
+    
+    
+            var marker_cbabeb69ff084df39cb1372bf6f6e599 = L.marker(
+                [41.763534526261274, -87.56712604501445],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_0532c3b2846640bbaddf3375d061005f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0badd288716f4a64972e6e856e7cfb0c = $(`<div id="html_0badd288716f4a64972e6e856e7cfb0c" style="width: 100.0%; height: 100.0%;">(1.313662951769637, '7800 S South Chicago Ave')</div>`)[0];
+            popup_0532c3b2846640bbaddf3375d061005f.setContent(html_0badd288716f4a64972e6e856e7cfb0c);
+        
+
+        marker_cbabeb69ff084df39cb1372bf6f6e599.bindPopup(popup_0532c3b2846640bbaddf3375d061005f)
+        ;
+
+        
+    
+    
+            var marker_2fe63843eb8147d1afc95402bac1f130 = L.marker(
+                [41.881449730512315, -87.68951701546462],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_5bd8ba8cc90943c4945984d61e29c7a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d45d341e992b4ff88390b42188052b91 = $(`<div id="html_d45d341e992b4ff88390b42188052b91" style="width: 100.0%; height: 100.0%;">(1.4128716557956575, '800 N Kedzie Ave')</div>`)[0];
+            popup_5bd8ba8cc90943c4945984d61e29c7a7.setContent(html_d45d341e992b4ff88390b42188052b91);
+        
+
+        marker_2fe63843eb8147d1afc95402bac1f130.bindPopup(popup_5bd8ba8cc90943c4945984d61e29c7a7)
+        ;
+
+        
+    
+    
+            var marker_e942de450a5a4812aa7d89dea6198605 = L.marker(
+                [41.7288624846728, -87.63619542609408],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_b38ab5c99fdd419a873999c971155215 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9ef98bfb6d7248eaa7c06b01a2661040 = $(`<div id="html_9ef98bfb6d7248eaa7c06b01a2661040" style="width: 100.0%; height: 100.0%;">(0.7486598147182416, '8500 S Holland Rd')</div>`)[0];
+            popup_b38ab5c99fdd419a873999c971155215.setContent(html_9ef98bfb6d7248eaa7c06b01a2661040);
+        
+
+        marker_e942de450a5a4812aa7d89dea6198605.bindPopup(popup_b38ab5c99fdd419a873999c971155215)
+        ;
+
+        
+    
+    
+            var marker_e7c526931f654e42982769ede7a4e628 = L.marker(
+                [41.792466157758014, -87.62853199735115],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_0412551c8253408bb8bf6a2d19768ad7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5c9883eb2e4c4e1b819de4135dc668ea = $(`<div id="html_5c9883eb2e4c4e1b819de4135dc668ea" style="width: 100.0%; height: 100.0%;">(1.0353100720599482, '620 W 63rd St, Chicago')</div>`)[0];
+            popup_0412551c8253408bb8bf6a2d19768ad7.setContent(html_5c9883eb2e4c4e1b819de4135dc668ea);
+        
+
+        marker_e7c526931f654e42982769ede7a4e628.bindPopup(popup_0412551c8253408bb8bf6a2d19768ad7)
+        ;
+
+        
+    
+    
+            var marker_2bb1f4f9a1f24c9697392a032560a34c = L.marker(
+                [41.67801872009587, -87.62703071241997],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_28c936b6464a447a9a77ef7b1c4ff4fe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_10a8b2bdc9e0492e8217d7e65ad69dce = $(`<div id="html_10a8b2bdc9e0492e8217d7e65ad69dce" style="width: 100.0%; height: 100.0%;">(0.9519099440452173, '821 W 115th St')</div>`)[0];
+            popup_28c936b6464a447a9a77ef7b1c4ff4fe.setContent(html_10a8b2bdc9e0492e8217d7e65ad69dce);
+        
+
+        marker_2bb1f4f9a1f24c9697392a032560a34c.bindPopup(popup_28c936b6464a447a9a77ef7b1c4ff4fe)
+        ;
+
+        
+    
+    
+            var marker_861a82f142de4cfbbbd2339a447df03d = L.marker(
+                [41.996017555271, -87.67494886595018],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_ace42ae3a1d1410e95292b311a3a65e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_899ec1ee759149b68c22de14683c12ee = $(`<div id="html_899ec1ee759149b68c22de14683c12ee" style="width: 100.0%; height: 100.0%;">(0.7703241928932433, '6221 N Broadway')</div>`)[0];
+            popup_ace42ae3a1d1410e95292b311a3a65e1.setContent(html_899ec1ee759149b68c22de14683c12ee);
+        
+
+        marker_861a82f142de4cfbbbd2339a447df03d.bindPopup(popup_ace42ae3a1d1410e95292b311a3a65e1)
+        ;
+
+        
+    
+    
+            var marker_16f6737c220c4329926cfcb920a162a4 = L.marker(
+                [41.88829262297889, -87.68964478535177],
+                {}
+            ).addTo(map_d328d0c9aa0a48c08e20c7a3fb773f33);
+        
+    
+        var popup_ae075db90cfa431d880c3e90fb439ea2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3083ee15584434fb98cf6ccc0c950a0 = $(`<div id="html_a3083ee15584434fb98cf6ccc0c950a0" style="width: 100.0%; height: 100.0%;">(1.1040155117577302, '800 N Kedzie Ave')</div>`)[0];
+            popup_ae075db90cfa431d880c3e90fb439ea2.setContent(html_a3083ee15584434fb98cf6ccc0c950a0);
+        
+
+        marker_16f6737c220c4329926cfcb920a162a4.bindPopup(popup_ae075db90cfa431d880c3e90fb439ea2)
+        ;
+
+        
+    
+</script>
