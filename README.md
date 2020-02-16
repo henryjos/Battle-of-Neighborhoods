@@ -10,4 +10,4 @@ The Report for the project is: Determining Food Deserts Using Foursquare.pdf
 
 The Slide Presentation for the project is: Chicago_Food_Deserts2.pdf
 
-
+NOTE: The Two Maps do not show in the Report how 
