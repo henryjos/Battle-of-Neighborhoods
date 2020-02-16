@@ -4,8 +4,10 @@ This is an analysis of the food deserts in Chicago and the postive impact that A
   
 The NBViewer for this Notebook is: https://nbviewer.jupyter.org/github/henryjos/Battle-of-Neighborhoods/blob/master/Battle-of-Neighborhoods.ipynb
 
+The Notebook for the Project is:
 
+The Report for the project is: Determining Food Deserts Using Foursquare.pdf
 
 The Slide Presentation for the project is: Chicago_Food_Deserts2.pdf
 
-The Report for the project is 
+
