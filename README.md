@@ -1,5 +1,5 @@
 # Battle-of-Neighborhoods
-ALDI: An OASIS in a Food Desert:
+ALDI: An OASIS in Chicago Food Deserts
 
 This is an analysis of the food deserts in Chicago and the positive impact that ALDI has had on the food desert status since 2010 by the opening of 7 ALDI's in Chicago food desert neighborhoods since 2010. This project continues by suggesting other food desert locations that the planners at ALDI's might explore for openings in the future.
   
