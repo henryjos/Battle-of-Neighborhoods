@@ -11,5 +11,8 @@ The Report for the project is: Determining Food Deserts Using Foursquare.pdf
 
 The Slide Presentation for the project is: Chicago_Food_Deserts2.pdf
 
-NOTE: The last two maps do not show in the nbviewer; however, they are in the Report. 
-I have also included the files that were developed for this project. In case you want to reproduce it. 
+The folium maps do not show in the source code repository; however, they are in NBViewer
+
+I have also included the files that were developed for this project. In case you want to reproduce it.
+
+The website for this repository is: https://henryjos.github.io/Battle-of-Neighborhoods/ 
